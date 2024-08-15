@@ -1,11 +1,11 @@
 import React from 'react';
 import {NewComponint} from "./NewComponint";
 
-type BoduPropsType = {
+type BodyPropsType = {
     title: string
 }
 
-export const Body = (props: BoduPropsType) => {
+export const Body = (props: BodyPropsType) => {
 
     const students = [
         {id: 1, name: 'James', age: 11},
