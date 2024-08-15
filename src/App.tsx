@@ -10,6 +10,7 @@ function App() {
       <Header title={'Header'}/>
       <Body title={'Body'}/>
       <Footer title={'Footer'}/>
+        <h2>Hello world</h2>
     </div>
   );
 }
