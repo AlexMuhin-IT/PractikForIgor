@@ -1,6 +1,4 @@
 import React from 'react';
-import {Cars} from "./Cars";
-
 
 type NewComponentType = {
     // students: Array<StudentType>
@@ -13,17 +11,8 @@ type StudentType = {
 }
 
 export const NewComponint = (props: NewComponentType) => {
-
-    const topCars = [
-        {manufacturer: 'BMW', model: 'm5cs'},
-        {manufacturer: 'Mercedes', model: 'f67ad'},
-        {manufacturer: 'Audi', model: 'rs6'},
-        {manufacturer: 'Nissan', model: 'mk4v6'},
-    ]
-
     return (
         <>
-            <Cars cars={topCars}/>
             <div>
                 <h2>Hello</h2>
             </div>
@@ -43,5 +32,3 @@ export const NewComponint = (props: NewComponentType) => {
         </>
     )
 }
-
-// Вопрос: почему в Body можно вставить одинаковое значение students= students а тут нет

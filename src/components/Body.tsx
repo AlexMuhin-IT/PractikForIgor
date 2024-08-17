@@ -3,6 +3,7 @@ import {NewComponint} from "./NewComponint";
 import {NewLesson} from "./NewLesson";
 import {NewLesson2} from "./NewLesson2";
 import {NewLesson3} from "./NewLesson3";
+import {NewLesson1} from "./NewLesson1";
 
 type BodyPropsType = {
     title: string
@@ -24,6 +25,7 @@ export const Body = (props: BodyPropsType) => {
             <h1>{props.title}</h1>
             <NewComponint students={students}/>
             <NewLesson/>
+            <NewLesson1/>
             <NewLesson2/>
             <NewLesson3/>
         </div>
