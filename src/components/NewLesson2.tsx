@@ -9,9 +9,10 @@ export const NewLesson2 = () => {
         setA(++a);
         console.log(a)
     };
-    let b=1;
+
     const onClickHandlerClear = () => {
-        setA(b);
+        // setA(b);
+        setA(1)
     };
 
     return (
