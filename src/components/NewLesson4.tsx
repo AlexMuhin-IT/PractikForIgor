@@ -1,11 +1,11 @@
-import React, {MouseEvent} from 'react';
+import React from 'react';
 
 
-type NewLesson4Props = {
+type newLesson4Props = {
     currentMoney: moneyTypeProps[]
-    onClick: (nameButton: FilterType) => void;
+    onClick: (nameButton: filterType) => void;
 }
-type FilterType = 'all' | 'dollar' | 'ruble'
+type filterType = 'all' | 'dollar' | 'ruble'
 
 type moneyTypeProps = {
     banknote: string
@@ -13,7 +13,7 @@ type moneyTypeProps = {
     number: string
 }
 
-export const NewLesson4 = (props: NewLesson4Props) => {
+export const NewLesson4 = (props: newLesson4Props) => {
     return (
         <>
             <ul>
